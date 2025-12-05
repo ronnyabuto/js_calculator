@@ -69,16 +69,3 @@ module.exports = {
     displayHistory,
     history
 };
-
-// === TEST ZONE: Let's run some calculations ===
-
-console.log("Running Calculator...");
-
-console.log("Adding 5 + 10: ", add(5, 10));          // Should print 15
-console.log("Subtracting 20 - 8: ", subtract(20, 8)); // Should print 12
-console.log("Multiplying 3 * 7: ", multiply(3, 7));   // Should print 21
-console.log("Dividing 100 / 2: ", divide(100, 2));    // Should print 50
-
-console.log("Dividing 50 / 0: ", divide(50, 0));      // Should print Error
-
-displayHistory();
